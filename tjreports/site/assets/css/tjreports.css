@@ -10,3 +10,16 @@ ul#ul-columns-name li label {margin-bottom: 0; padding-top: 2px; padding-bottom:
 div#report-containing-div {min-height:450px;}
 div#reports-container input.tjrsmall-input {width: 120px; font-size: 12px;}
 div#reports-container .form-inline-header .controls {padding-right: 5px;}
+th.center:nth-child(odd) {
+  background-color:  #d9edf7;
+  border-left: 1px solid #b3b3b3;
+}
+th.center:nth-child(even) {
+  background-color: #fcf8e3;
+  border-left: 1px solid #b3b3b3;
+}
+
+td.score:nth-child(odd),
+th.score:nth-child(odd) {
+     border-left: 1px solid #b3b3b3;
+}
